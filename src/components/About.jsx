@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
 /* eslint-disable react/no-unknown-property */
 import React from "react";
@@ -42,19 +43,16 @@ const About = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <h2 className={styles.sectionHeadText}>Overview
+        </h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js .
-        I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
-      </motion.p>
+        <h1>Your Vision, My Code : </h1>
+        I'm a skilled developer with experience in TypeScript and JavaScript, and expertise in frameworks like React and Node.js. As a third-year computer science student at ENI Fianarantsoa, I have a strong foundation in both theoretical and practical aspects of software development. I excel in creating web applications, websites, and UX/UI designs, ensuring that solutions are both efficient and user-friendly. I'm a quick learner and work closely with clients to bring their ideas to life through scalable and effective solutions. Let's collaborate to turn your vision into reality!      </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (

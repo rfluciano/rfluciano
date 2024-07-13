@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import {
   mobile,
   backend,
@@ -15,7 +16,6 @@ import {
   git,
   figma,
   docker,
-  meta,
   starbucks,
   tesla,
   shopify,
@@ -23,7 +23,10 @@ import {
   jobit,
   tripguide,
   threejs,
+  smmc,
+  eni
 } from "../assets";
+
 
 export const navLinks = [
   {
@@ -116,11 +119,11 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "FullStack Developper",
+    company_name: "SMMC Port Tamatave",
+    icon: smmc,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "March 2022- April 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -129,9 +132,9 @@ const experiences = [
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Dev-Hunt Participant",
+    company_name: "E.N.I Fianarantsoa",
+    icon: eni,
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Feb 2022",
     points: [
@@ -157,7 +160,7 @@ const experiences = [
   {
     title: "Full stack Developer",
     company_name: "Meta",
-    icon: meta,
+    icon: eni,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [

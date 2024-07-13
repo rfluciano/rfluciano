@@ -29,8 +29,12 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import smmc from "./company/smmc.jpg";
+import eni from "./company/eni.png";
 
 export {
+  eni,
+  smmc,
   logo,
   backend,
   creator,
