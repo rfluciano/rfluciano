@@ -6,11 +6,6 @@
 #
 # I want to progress in this field and to become a project manager one day.
 #
-# In hope to persuade you from engaging me you can visit my Public Repositories, and i have a portfolio website too
-#
-# Which you can explore
-#
-#
-#
-#
-#
+# In hope to persuade you from engaging me. 
+# 
+# You can visit my Public Repositories and should at least take at my portfolio website which you can explore
