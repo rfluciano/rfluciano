@@ -51,9 +51,11 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        <h1>Your Vision, My Code : </h1>
-        I'm a skilled developer with experience in TypeScript and JavaScript, and expertise in frameworks like React and Node.js. As a third-year computer science student at ENI Fianarantsoa, I have a strong foundation in both theoretical and practical aspects of software development. I excel in creating web applications, websites, and UX/UI designs, ensuring that solutions are both efficient and user-friendly. I'm a quick learner and work closely with clients to bring their ideas to life through scalable and effective solutions. Let's collaborate to turn your vision into reality!      </motion.p>
-
+        <h1>Eager to Learn and Grow :</h1>
+        <p>
+          I am a student in the second year of a Master's degree in Computer Science at the University of Fianarantsoa. I am passionate about web development and have a strong desire to create innovative and user-friendly web applications. With my skills in programming languages such as JavaScript, Php, Python and frameworks like React, Laravel and Django. I am eager to contribute to the development of cutting-edge web solutions that meet the needs of users and businesses alike.
+        </p>
+      </motion.p>
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
